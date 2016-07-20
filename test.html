@@ -10,11 +10,12 @@
 		<title>杭电图像图像处理606实验室</title>
 			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 			<link rel="stylesheet" type="text/css" href="css/mainstyle.css">
-			<script src="js/bootstrap.min.js"></script>
+		    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		    <script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<div>
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation" >
+		<div id="mymainage">
+			<nav  class="navbar navbar-default navbar-fixed-top" role="navigation" >
 				<div class="container">
 					<div class="row">
 						<div class="navbar-header">
@@ -22,20 +23,244 @@
 								<img src="images/logo.png" alt="logo" height="50px" />
 							</div>
 						</div>
-						<div class="collapse navbar-collapse" id="main-menu" >
+						<div class="collapse navbar-collapse bs-js-navbar-scrollspy" id="main-menu" >
 							<ul class="nav navbar-nav navbar-right">
-								<li><span></span><a href="#">主页</a></li>
-								<li><span></span><a href="#">近期工作</a></li>
-								<li><span></span><a href="#">论文</a></li>
-								<li><span></span><a href="#">科研项目</a></li>
-								<li><span></span><a href="#">考研资讯</a></li>
-								<li><span></span><a href="#">研活之声</a></li>
-								<li><span></span><a href="#">研社交</a></li>
+								<li ><span></span><a href="#mymainage">主页</a></li>
+								<li><span></span><a href="#mywork">近期工作</a></li>
+								<li><span></span><a href="#mypaper">论文</a></li>
+								<li><span></span><a href="#myteam">团队介绍</a></li>
+								<li><span></span><a href="#myaimgraduate">考研资讯</a></li>
+								<li><span></span><a href="#mygraduatelife">研活之声</a></li>
+								<li><span></span><a href="#mysocialcontact">研社交</a></li>
+								<li><span></span><a href="#mycontactus">联系我们</a></li>
 							</ul>							
 						</div>
 					</div>
 				</div>				
 			</nav>
-		</div>	
+		</div>
+
+		<div id="myCarousel" class="carousel slide">
+			<div class="footing">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img align="center" src="images/slide1.jpg" alt="First slide"   style="width: 100%;
+		height: 500px;"/>
+					</div>
+					<div class="item">
+						<img align="center" src="images/slide2.jpg" alt="Second slide" style="width: 100%;
+		height: 500px;"/>
+					</div>
+					<div class="item">
+						<img align="center" src="images/slide3.jpg" alt="Third slide" style="width: 100%;
+		height: 500px;"/>
+					</div>
+					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#myCarousel"  data-slide="next">&rsaquo;</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="mywork">
+			<div class="heading">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="header-section-title">近期工作</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="container">
+				<div class="row">
+					<div class="triangle"></div>
+				</div>
+				<div class="row">
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+				</div>
+			</div>
+			<div >
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="mypaper" >
+			<div class="heading">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="header-section-title">论文</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="first-section1">
+			<div class="container">
+				<div class="row">
+					<div class="triangle"></div>
+				</div>
+				<div class="row">
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="myteam" >
+			<div class="heading">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="header-section-title">团队介绍</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="first-section1">
+			<div class="container">
+				<div class="row">
+					<div class="triangle"></div>
+				</div>
+				<div class="row">
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="myaimgraduate">
+			<div class="heading">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="header-section-title">考研资讯</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="first-section1">
+			<div class="container">
+				<div class="row">
+					<div class="triangle"></div>
+				</div>
+				<div class="row">
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="mygraduatelife" >
+			<div class="heading">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="header-section-title">研活之声</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="first-section1">
+			<div class="container">
+				<div class="row">
+					<div class="triangle"></div>
+				</div>
+				<div class="row">
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="mysocialcontact">
+			<div class="heading">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="header-section-title">研社交</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="first-section1">
+			<div class="container">
+				<div class="row">
+					<div class="triangle"></div>
+				</div>
+				<div class="row">
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+					<p>Timeline is free responsive template by <span class="blue">template</span></p>
+					<p><span class="green">mo</span>.</p>
+					<p>This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes tofor all images.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footing">
+			<div id="mycontactus" >
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h4>联系我们</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="mysendmsg" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>请给我们发送消息</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Javascripts -->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
-</html> 
+</html>
